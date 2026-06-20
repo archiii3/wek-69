@@ -11,7 +11,16 @@ A secure and lightweight file backup and synchronization tool written in Python.
 * File version history
 * Simple command-line interface
 * Configurable backup schedules
-
+odeguardian/
+├── backups/
+├── logs/
+├── database/
+├── src/
+│ ├── monitor.py
+│ ├── backup.py
+│ ├── restore.py
+│ └── report.py
+├── requirements.txt
 ## Example Code
 
 ```python
