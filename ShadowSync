@@ -4,24 +4,6 @@ A secure and lightweight file backup and synchronization tool written in Python.
 
 ## Features
 
-* Automatic folder monitoring
-* Incremental backups
-* AES file encryption
-* Cross-device synchronization
-* File version history
-* Simple command-line interface
-* Configurable backup schedules
-odeguardian/
-├── backups/
-├── logs/
-├── database/
-├── src/
-│ ├── monitor.py
-│ ├── backup.py
-│ ├── restore.py
-│ └── report.py
-├── requirements.txt
-## Example Code
 
 ```python
 import os
@@ -46,6 +28,24 @@ if __name__ == "__main__":
     backup_files()
 ```
 
+* Automatic folder monitoring
+* Incremental backups
+* AES file encryption
+* Cross-device synchronization
+* File version history
+* Simple command-line interface
+* Configurable backup schedules
+odeguardian/
+├── backups/
+├── logs/
+├── database/
+├── src/
+│ ├── monitor.py
+│ ├── backup.py
+│ ├── restore.py
+│ └── report.py
+├── requirements.txt
+## Example Code
 ## Future Improvements
 
 * Cloud storage integration
